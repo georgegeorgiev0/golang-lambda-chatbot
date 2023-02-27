@@ -5,7 +5,7 @@ import (
 	"log"
 )
 
-const postMessage = "@here please login your time .... you must have 168 hours this month"
+const postMessage = "@here please login your time .... you must have 168 hours this month!"
 
 func (h EventHandler) RemindForReports() error {
 	url := fmt.Sprintf(h.Config.SlackUrl, "chat.postMessage")
